@@ -1,0 +1,4 @@
+defaultConfig {
+    applicationId "com.example.ceramica_clientes"
+    ...
+}
