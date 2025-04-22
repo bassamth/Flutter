@@ -25,10 +25,10 @@ jobs:
       - name: Build APK
         run: flutter build apk
 
-   #   - name: Upload APK
-   #     uses: actions/upload-artifact@v2
-  #      with:
- #       name: release-apk
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
+        name: release-apk
         path: build/app/outputs/flutter-apk/app-release.apk
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v3.4.2
